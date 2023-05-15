@@ -141,7 +141,7 @@ class PersonalInfoForm extends StatelessWidget {
                             top: 20, left: 10, right: 180),
                         child: formField(
                             labelText: 'Appointment Date',
-                            hintText: '12/03/23'),
+                            hintText: ''),
                       )),
                       const SizedBox(width: 16.0),
                       Expanded(
@@ -149,7 +149,7 @@ class PersonalInfoForm extends StatelessWidget {
                           padding: const EdgeInsets.only(
                               top: 20, left: 10, right: 180),
                           child: formField(
-                              labelText: 'Appointment Time', hintText: ''),
+                              labelText: 'Appointment Time', hintText: '10.30 AM'),
                         ),
                       ),
                     ],
