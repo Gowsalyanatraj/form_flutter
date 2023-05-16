@@ -182,7 +182,32 @@ class PersonalInfoForm extends StatelessWidget {
                         )
                       ],
                     ),
-                  )
+                  ),
+                   Row(
+                      children: [
+                        Container(
+                          color: Colors.grey.shade200,
+                          child: TextButton.icon(
+                              onPressed: () {},
+                              icon:const Icon(Icons.cancel),
+                              label: const Text('Cancel')),
+                        ),
+                        const SizedBox(width: 30),
+                        Container(
+                          color: Colors.green,
+                          child: TextButton.icon(
+                              onPressed: () {},
+                              icon:const Icon(
+                                Icons.group_add_outlined,
+                                color: Colors.white,
+                              ),
+                              label:const Text(
+                                'Create',
+                                style: TextStyle(color: Colors.white),
+                              )),
+                        )
+                      ],
+                    ),
                 ],
               ),
             ),
